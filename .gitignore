@@ -1,0 +1,34 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# IDEs
+.idea/
+*.iml
+
+# Kubernetes / tooling
+.kube/
+*.log
+
+# Secrets (NUNCA versionar)
+**/*secret*.yaml
+**/*secrets*.yaml
+*.key
+*.pem
+*.crt
+.env
+.env.*
+
+# Helm
+charts/**/charts/
+charts/**/tmp/
+*.tgz
+
+# Kustomize
+kustomize.local.yaml
+
+# ArgoCD
+argocd-local.yaml

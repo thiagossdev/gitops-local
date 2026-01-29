@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "ms-kubernetes-tools.vscode-kubernetes-tools",
+    "redhat.vscode-yaml",
+    "argo.argocd-vscode",
+    "ms-azuretools.vscode-docker",
+    "eamodio.gitlens"
+  ]
+}

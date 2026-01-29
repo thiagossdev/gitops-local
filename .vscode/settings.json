@@ -1,0 +1,10 @@
+{
+  "yaml.validate": true,
+  "yaml.schemaStore.enable": true,
+  "yaml.schemas": {
+    "https://json.schemastore.org/kustomization.json": "kustomization.yaml"
+  },
+  "files.associations": {
+    "*.yaml": "yaml"
+  }
+}
