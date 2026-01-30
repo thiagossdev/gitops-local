@@ -10,6 +10,5 @@ patches:
       name: ingress-nginx-controller
     patch: |
       - op: add
-        path: /spec/template/spec/nodeSelector
-        value:
-          node-role: worker
+        path: /spec/template/spec/nodeSelector/node-role
+        value: worker
