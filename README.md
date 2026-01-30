@@ -1,2 +1,2 @@
-# gitops-01-local
+# gitops-local
 GitOps Local
