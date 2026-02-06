@@ -3,5 +3,6 @@ kind: Kustomization
 
 resources:
   - infrastructure/ingress/application.yaml
+  - infrastructure/storage/longhorn.yaml
   - apps/postgres.yaml
   - apps/whoami.yaml
